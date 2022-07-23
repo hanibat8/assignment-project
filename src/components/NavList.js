@@ -8,7 +8,7 @@ const NavList=()=>{
                 <li className='p-2 px-4'><span href='/'><a>Blog</a></span></li>
                 <li className='p-2 px-4'><span href='/'><a>Find an Agency</a></span></li>
                 <li className='p-2 px-4'><span href='/'><a>Floor Plans</a></span></li>
-                <li className=''> 
+                <li className=' md:hidden'> 
                     <Submenu title=' Guides'/>
                     <MenuDropDownTab title='Guides'/>
                 </li>
